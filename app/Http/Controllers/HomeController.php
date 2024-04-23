@@ -29,4 +29,34 @@ class HomeController extends Controller
     	return view('faqs');
     	
     }
+
+    protected function terms(){
+
+        return view('terms_of_use');
+
+    }
+
+    protected function privacy(){
+
+        return view('privacy');
+        
+    }
+
+    protected function cookie(){
+
+        return view('cookie');
+
+    }
+
+    protected function refund(){
+
+        return view('refund_policy');
+
+    }
+
+    protected function how_to_get_birth(){
+
+        return view('how_to_get_birth');
+
+    }
 }
