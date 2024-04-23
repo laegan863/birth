@@ -13,13 +13,13 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">Birth Certificate</a>
-                    <a class="nav-link" href="#">Death Certificate</a>
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="{{route('index')}}">Home</a>
+                    <a class="nav-link" href="{{route('birthcertificate')}}">Birth Certificate</a>
+                    <a class="nav-link" href="{{route('deathcertificate')}}">Death Certificate</a>
+                    <a class="nav-link" href="{{route('home.contact')}}">Contact Us</a>
                     <a class="nav-link" href="#">FAQs</a>
-                    <a class="btn btn-primary p-1 mx-1" href="#">Birth Certificate</a>
-                    <a class="btn btn-secondary p-1 mx-1" href="#">Death Certificate</a>
+                    <a class="btn btn-primary p-1 mx-1" href="{{route('birthcertificate')}}">Birth Certificate</a>
+                    <a class="btn btn-secondary p-1 mx-1" href="{{route('deathcertificate')}}">Death Certificate</a>
                 </div>
             </div>
 
