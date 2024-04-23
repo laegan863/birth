@@ -14,7 +14,7 @@
                     <div class="col-5 pb-5">
                     	<div class="d-flex align-items-center justify-content-center"></div>
                         <p class="text-center txt-hero text-white mt-5 fw-bold fs-1">
-                            Cookie
+                            Cookie Policy
                         </p>
                     </div>
                 </div> 
@@ -325,7 +325,7 @@
 	   	</div>
    </section>
     @include('files/footer_top')
-
+	@include('files.footer')
 @include('files/script')
 </body>
 </html>
