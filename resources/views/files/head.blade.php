@@ -81,6 +81,3 @@
             border-top: black solid 2px !important;
         }
     </style>
-
-    <title>Home</title>
-</head>
