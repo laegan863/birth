@@ -2,22 +2,22 @@
 <div class="container-fluid bg-dark-blue">
         <div class="row justify-content-center">
             <div class="col-10 px-5 py-3 text-center">
-                <a href="#" class="text-white text-decoration-none h6 px-3 border-end footer-link">
+                <a href="{{route('home.terms')}}" class="text-white text-decoration-none h6 px-3 border-end footer-link">
                     <p class="m-0 my-xxl-2 my-xl-2 my-lg-2 my-0 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">Terms of Use</p>
                 </a>
-                <a href="#" class="text-white text-decoration-none h6 px-3 border-end footer-link">
+                <a href="{{route('home.privacy')}}" class="text-white text-decoration-none h6 px-3 border-end footer-link">
                     <p class="m-0 my-xxl-2 my-xl-2 my-lg-2 my-0 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">Privacy Policy</p>
                 </a>
-                <a href="#" class="text-white text-decoration-none h6 px-3 border-end footer-link">
+                <a href="{{route('home.cookie')}}" class="text-white text-decoration-none h6 px-3 border-end footer-link">
                     <p class="m-0 my-xxl-2 my-xl-2 my-lg-2 my-0 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">Cookies Policy</p>
                 </a>
-                <a href="#" class="text-white text-decoration-none h6 px-3 border-end footer-link">
+                <a href="{{route('home.refund')}}" class="text-white text-decoration-none h6 px-3 border-end footer-link">
                     <p class="m-0 my-xxl-2 my-xl-2 my-lg-2 my-0 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">Refund Policy</p>
                 </a>
                 <a href="{{route('home.contact')}}" class="text-white text-decoration-none h6 px-3 border-end footer-link">
                     <p class="m-0 my-xxl-2 my-xl-2 my-lg-2 my-0 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">Contact Us</p>
                 </a>
-                <a href="#" class="text-white text-decoration-none h6 px-3 border-end footer-link">
+                <a href="{{route('home.how_to_get_birth')}}" class="text-white text-decoration-none h6 px-3 border-end footer-link">
                     <p class="m-0 my-xxl-2 my-xl-2 my-lg-2 my-0 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">Process to obtain a certificate</p>
                 </a>
                 <a href="{{route('home.about')}}" class="text-white text-decoration-none h6 px-3 border-end footer-link">
@@ -29,7 +29,7 @@
                 <a href="{{route('home.how-to-obtain-a-copy')}}" class="text-white text-decoration-none h6 px-3 border-end footer-link">
                     <p class="m-0 my-xxl-2 my-xl-2 my-lg-2 my-0 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">How to obtain a copy</p>
                 </a>
-                <a href="#" class="text-white text-decoration-none h6 px-3 border-end footer-link">
+                <a href="{{route('home.faqs')}}" class="text-white text-decoration-none h6 px-3 border-end footer-link">
                     <p class="m-0 my-xxl-2 my-xl-2 my-lg-2 my-0 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">FAQs</p>
                 </a>
             </div>

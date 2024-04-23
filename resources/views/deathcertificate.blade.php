@@ -450,7 +450,7 @@
             </div>
         </div>
     </section>
-
+    @include('files.footer')
 @include('files/script')
 </body>
 </html>

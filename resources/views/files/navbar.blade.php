@@ -13,13 +13,13 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="{{route('index')}}">Home</a>
-                    <a class="nav-link" href="{{route('birthcertificate')}}">Birth Certificate</a>
-                    <a class="nav-link" href="{{route('deathcertificate')}}">Death Certificate</a>
+                    <a class="nav-link" href="{{route('home.index')}}">Home</a>
+                    <a class="nav-link" href="{{route('home.birthcertificate')}}">Birth Certificate</a>
+                    <a class="nav-link" href="{{route('home.deathcertificate')}}">Death Certificate</a>
                     <a class="nav-link" href="{{route('home.contact')}}">Contact Us</a>
                     <a class="nav-link" href="#">FAQs</a>
-                    <a class="btn btn-primary p-1 mx-1" href="{{route('birthcertificate')}}">Birth Certificate</a>
-                    <a class="btn btn-secondary p-1 mx-1" href="{{route('deathcertificate')}}">Death Certificate</a>
+                    <a class="btn btn-primary p-1 mx-1" href="">Birth Certificate</a>
+                    <a class="btn btn-secondary p-1 mx-1" href="">Death Certificate</a>
                 </div>
             </div>
 
@@ -31,31 +31,31 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-10 text-center">
-                                <a href="#" class="text-secondary text-decoration-none h2">
+                                <a href="{{route('home.index')}}" class="text-secondary text-decoration-none h2">
                                     <p class="m-0 my-4 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">
                                         Home
                                     </p>
                                 </a>
 
-                                <a href="#" class="text-secondary text-decoration-none h2">
+                                <a href="{{route('home.birthcertificate')}}" class="text-secondary text-decoration-none h2">
                                     <p class="m-0 my-4 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">
                                         Birth Certificate
                                     </p>
                                 </a>
 
-                                <a href="#" class="text-secondary text-decoration-none h2">
+                                <a href="{{route('home.deathcertificate')}}" class="text-secondary text-decoration-none h2">
                                     <p class="m-0 my-4 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">
                                         Death Certificate
                                     </p>
                                 </a>
 
-                                <a href="#" class="text-secondary text-decoration-none h2">
+                                <a href="{{route('home.contact')}}" class="text-secondary text-decoration-none h2">
                                     <p class="m-0 my-4 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">
                                         Contact Us
                                     </p>
                                 </a>
 
-                                <a href="#" class="text-secondary text-decoration-none h2">
+                                <a href="{{route('home.faqs')}}" class="text-secondary text-decoration-none h2">
                                     <p class="m-0 my-4 d-xxl-inline-block d-xl-inline-block d-lg-inline-block d-block">
                                         FAQs
                                     </p>

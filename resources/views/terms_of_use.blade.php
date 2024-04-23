@@ -134,7 +134,7 @@
 	   	</div>
    </section>
     @include('files/footer_top')
-
+	@include('files.footer')
 @include('files/script')
 </body>
 </html>
