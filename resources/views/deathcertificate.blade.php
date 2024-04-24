@@ -19,13 +19,13 @@
                     </div>
                 </div>
 
-                <div class="row px-5">
-                    <div class="col-3">
+                <div class="row justify-content-center px-xxl-5 px-xl-5 px-lg-5 px-0">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-6">
                         <div class="row justify-content-center">
-                            <div class="col-2">
+                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-3 text-center">
                                 <img src="img/official-certified.svg" class="" width="40" height="100" alt="">
                             </div>
-                            <div class="col-6 text-white pt-4">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-9 text-white pt-4">
                                 <p class="m-0 fw-semibold">
                                     Official Certified Records
                                 </p>
@@ -33,12 +33,12 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-6">
                         <div class="row justify-content-center">
-                            <div class="col-2">
+                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-3">
                                 <img src="img/guarantee.svg" class="" width="40" height="100" alt="">
                             </div>
-                            <div class="col-6 text-white pt-4">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-9 text-white pt-4">
                                 <p class="m-0 fw-semibold">
                                     Money-back Guarantee
                                 </p>
@@ -46,12 +46,12 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-6">
                         <div class="row justify-content-center">
-                            <div class="col-2">
+                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-3">
                                 <img src="img/review-2-white.svg" class="" width="40" height="100" alt="">
                             </div>
-                            <div class="col-6 text-white pt-4">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-9 text-white pt-4">
                                 <p class="m-0 fw-semibold">
                                     Custom review by our team of experts
                                 </p>
@@ -59,12 +59,12 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-6">
                         <div class="row justify-content-center">
-                            <div class="col-2">
+                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-3">
                                 <img src="img/security-4-white.svg" class="" width="40" height="100" alt="">
                             </div>
-                            <div class="col-6 text-white pt-4">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-9 text-white pt-4">
                                 <p class="m-0 fw-semibold">
                                     Secure Online Applications
                                 </p>
@@ -83,17 +83,17 @@
             <div class="text-center text-light-grey fs-3 fw-bold mb-4">
                 Choose type of certificate:
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 my-lg-0 my-3">
                 <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     NEW CERTIFICATE
                 </button>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 my-lg-0 my-3">
                 <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     REPLACE CERTIFICATE
                 </button>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 my-lg-0 my-3">
                 <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     CERTIFIED COPY
                 </button>
@@ -116,13 +116,13 @@
     <div class="container-fluid">
         <div class="row px-5">
 
-            <div class="col-4 p-5">
+            <div class="col-lg-4 p-5">
                 <div class="row justify-content-center g-3">
                     <div class="col-3">
                         <img src="img/fill-form-B.svg" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-lg-12">
                         <div class="row">
                             <div class="col-1 fw-bold text-primary fs-2">
                                 1
@@ -135,13 +135,13 @@
                 </div>
             </div>
 
-            <div class="col-4 p-5">
+            <div class="col-lg-4 p-5">
                 <div class="row justify-content-center g-3">
                     <div class="col-3">
                         <img src="img/print-form-B.svg" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-lg-12">
                         <div class="row">
                             <div class="col-1 fw-bold text-primary fs-2">
                                 2
@@ -154,13 +154,13 @@
                 </div>
             </div>
 
-            <div class="col-4 p-5">
+            <div class="col-lg-4 p-5">
                 <div class="row justify-content-center g-3">
                     <div class="col-3">
                         <img src="img/recieve-form-B.svg" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-lg-12">
                         <div class="row">
                             <div class="col-1 fw-bold text-primary fs-2">
                                 3

@@ -64,7 +64,7 @@
 
         .bg-hero {
             position: relative;
-            background-image: url('img/bg-hero.jpg');
+            background-image: url({{asset('img/bg-hero.jpg')}});
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -79,5 +79,34 @@
             padding-bottom: 0;
 
             border-top: black solid 2px !important;
+        }
+        .fs-6{
+            font-size: 13px !important;
+        }
+        .bg-3973b7{
+            background-color: #2d5a90 !important;
+        }
+        .bg-eee{
+            background-color: #eee !important;
+        }
+        .bg-3e628e{
+            background-color: #3e628e !important;
+        }
+        .bg-70ade6{
+            background-color: #4d7bb2 !important;
+        }
+        .text-7dc0ff{
+            color: #7dc0ff;
+        }
+        .bg-light-blue{
+            background-image: linear-gradient(180deg, #7dc0ff, #649acc);
+        }
+        .bg-light-blue1{
+            background-image: linear-gradient(180deg, #7dc0ff, #649acc);
+        }
+        .bg-light-blue:hover{
+            color: black !important;
+            background: rgb(200,200,200);
+            background: linear-gradient(185deg, rgba(200,200,200,1) 44%, rgba(255,255,255,1) 100%, rgba(8,97,131,1) 100%, rgba(0,212,255,1) 100%);
         }
     </style>

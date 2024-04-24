@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\FormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,3 +32,8 @@ Route::get('/process-to-obtain-a-certificate', [HomeController::class, 'how_to_g
 Route::get('/refund-policy', [HomeController::class, 'refund'])->name('home.refund');
 Route::get('/Privacy-Policy', [HomeController::class, 'privacy'])->name('home.privacy');
 Route::get('/terms-of-use', [HomeController::class, 'terms'])->name('home.terms');
+
+// birth form
+Route::get('/birth/form/{type}', [FormController::class, 'birth_page'])->name('form.birthpage');
+Route::get('/birth-certificate-form/', [FormController::class, 'birth_form1'])->name('form.birth');
+Route::post('/birth-certificate/form/submitted', [FormController::class, 'submit_form'])->name('form.submit.birth.form');
