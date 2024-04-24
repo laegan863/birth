@@ -4,7 +4,7 @@
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 
           <a class="navbar-brand" href="#">
-            <img src="img/logo.svg" alt="Bootstrap" class="img-fluid">
+            <img src="{{asset('img/logo.svg')}}" alt="Bootstrap" class="img-fluid">
           </a>
           
           <button class="navbar-toggler"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
@@ -18,7 +18,7 @@
                     <a class="nav-link" href="{{route('home.deathcertificate')}}">Death Certificate</a>
                     <a class="nav-link" href="{{route('home.contact')}}">Contact Us</a>
                     <a class="nav-link" href="#">FAQs</a>
-                    <a class="btn btn-primary p-1 mx-1" href="">Birth Certificate</a>
+                    <a class="btn btn-primary p-1 mx-1" href="{{route('form.birthpage',['type' => 'New Application'])}}">Birth Certificate</a>
                     <a class="btn btn-secondary p-1 mx-1" href="">Death Certificate</a>
                 </div>
             </div>
