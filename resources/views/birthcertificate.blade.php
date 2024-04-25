@@ -84,17 +84,17 @@
                 Choose type of certificate:
             </div>
             <div class="col-lg-4 my-lg-0 my-3">
-                <a href="{{route('form.birthpage',['type' => 'New Certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <a href="{{route('home.death_form', ['type' => 'new certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     NEW CERTIFICATE
                 </a>
             </div>
             <div class="col-lg-4 my-lg-0 my-3">
-                <a href="{{route('form.birthpage',['type' => 'Replace Certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <a href="{{route('home.death_form', ['type' => 'replace'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     REPLACE CERTIFICATE
                 </a>
             </div>
             <div class="col-lg-4 my-lg-0 my-3">
-                <a href="{{route('form.birthpage',['type' => 'Certified Copy'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <a href="{{route('home.death_form', ['type' => 'certified'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     CERTIFIED COPY
                 </a>
             </div>
