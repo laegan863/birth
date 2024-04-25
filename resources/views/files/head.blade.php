@@ -64,7 +64,7 @@
 
         .bg-hero {
             position: relative;
-            background-image: url({{asset('img/bg-hero.jpg')}});
+            background-image: url('img/bg-hero.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
