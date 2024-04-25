@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-@include('files/head')
+@include('files.head')
+    <title>Death Certificate</title>
+</head>
 <body>
     
-    <!-- Navbar -->
-    @include('files/navbar')
+<!-- Navbar -->
+@include('files.navbar')
 
     <!-- Hero -->
     <div class="container-fluid">
@@ -83,18 +83,33 @@
             <div class="text-center text-light-grey fs-3 fw-bold mb-4">
                 Choose type of certificate:
             </div>
-            <div class="col-lg-4 my-lg-0 my-3">
+<<<<<<< death-certificate-form
+            <div class="col-lg-4">
                 <a href="{{route('home.death_form', ['type' => 'new certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+=======
+            <div class="col-lg-4 my-lg-0 my-3">
+                <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+>>>>>>> main
                     NEW CERTIFICATE
                 </a>
             </div>
+<<<<<<< death-certificate-form
+            <div class="col-lg-4">
+                <a href="{{route('home.death_form', ['type' => 'certified certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+=======
             <div class="col-lg-4 my-lg-0 my-3">
-                <a href="{{route('home.death_form', ['type' => 'replace certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+>>>>>>> main
                     REPLACE CERTIFICATE
                 </a>
             </div>
+<<<<<<< death-certificate-form
+            <div class="col-lg-4">
+                <a href="{{route('home.death_form', ['type' => 'certified'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+=======
             <div class="col-lg-4 my-lg-0 my-3">
-                <a href="{{route('home.death_form', ['type' => 'certified certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+>>>>>>> main
                     CERTIFIED COPY
                 </a>
             </div>
@@ -122,7 +137,7 @@
                         <img src="img/fill-form-B.svg" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-lg-12">
                         <div class="row">
                             <div class="col-1 fw-bold text-primary fs-2">
                                 1
@@ -141,7 +156,7 @@
                         <img src="img/print-form-B.svg" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-lg-12">
                         <div class="row">
                             <div class="col-1 fw-bold text-primary fs-2">
                                 2
@@ -160,7 +175,7 @@
                         <img src="img/recieve-form-B.svg" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-lg-12">
                         <div class="row">
                             <div class="col-1 fw-bold text-primary fs-2">
                                 3
