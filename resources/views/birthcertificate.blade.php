@@ -89,12 +89,12 @@
                 </a>
             </div>
             <div class="col-lg-4 my-lg-0 my-3">
-                <a href="{{route('home.death_form', ['type' => 'replace'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <a href="{{route('home.death_form', ['type' => 'replace certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     REPLACE CERTIFICATE
                 </a>
             </div>
             <div class="col-lg-4 my-lg-0 my-3">
-                <a href="{{route('home.death_form', ['type' => 'certified'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <a href="{{route('home.death_form', ['type' => 'certified certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     CERTIFIED COPY
                 </a>
             </div>
