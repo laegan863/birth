@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-@include('files/head')
+@include('files.head')
+    <title>Death Certificate</title>
+</head>
 <body>
     
-    <!-- Navbar -->
-    @include('files/navbar')
+<!-- Navbar -->
+@include('files.navbar')
 
     <!-- Hero -->
     <div class="container-fluid">
@@ -83,20 +83,44 @@
             <div class="text-center text-light-grey fs-3 fw-bold mb-4">
                 Choose type of certificate:
             </div>
+<<<<<<< death-certificate-form-branch
+<<<<<<< death-certificate-form
+            <div class="col-lg-4">
+                <a href="{{route('home.death_form', ['type' => 'new certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+=======
+=======
+>>>>>>> main
             <div class="col-lg-4 my-lg-0 my-3">
                 <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+>>>>>>> main
                     NEW CERTIFICATE
-                </button>
+                </a>
             </div>
+<<<<<<< death-certificate-form-branch
+<<<<<<< death-certificate-form
+            <div class="col-lg-4">
+                <a href="{{route('home.death_form', ['type' => 'certified certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+=======
+=======
+>>>>>>> main
             <div class="col-lg-4 my-lg-0 my-3">
                 <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+>>>>>>> main
                     REPLACE CERTIFICATE
-                </button>
+                </a>
             </div>
+<<<<<<< death-certificate-form-branch
+<<<<<<< death-certificate-form
+            <div class="col-lg-4">
+                <a href="{{route('home.death_form', ['type' => 'certified'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+=======
+=======
+>>>>>>> main
             <div class="col-lg-4 my-lg-0 my-3">
                 <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+>>>>>>> main
                     CERTIFIED COPY
-                </button>
+                </a>
             </div>
         </div>
     </div>
