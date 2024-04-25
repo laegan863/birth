@@ -11,3 +11,39 @@
     const yearRange = startYear + "-" + currentYear;
     document.getElementById("inclusive-year").textContent = yearRange;
 </script>
+
+<script>
+    var year = new Date().getFullYear();
+    var numberOfYears = 118;
+
+    var endYear = year - numberOfYears;
+
+    var yearSelect = document.getElementById('year-of-death');
+
+    for (var year = year; year >= endYear; year--) {
+        var option = document.createElement('option');
+        option.value = year;
+        option.textContent = year;
+        yearSelect.appendChild(option);
+    }
+
+    yearSelect.selectedIndex = 0;
+</script>
+
+<script>
+    var year = new Date().getFullYear();
+    var numberOfYears = 118;
+
+    var endYear = year - numberOfYears;
+
+    var yearSelect = document.getElementById('year-of-birth');
+
+    for (var year = year; year >= endYear; year--) {
+        var option = document.createElement('option');
+        option.value = year;
+        option.textContent = year;
+        yearSelect.appendChild(option);
+    }
+
+    yearSelect.selectedIndex = 0;
+</script>
