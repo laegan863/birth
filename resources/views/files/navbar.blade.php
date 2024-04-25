@@ -4,7 +4,7 @@
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 
           <a class="navbar-brand" href="#">
-            <img src="img/logo.svg" alt="Bootstrap" class="img-fluid">
+            <img src="{{asset('img/logo.svg')}}" alt="Bootstrap" class="img-fluid">
           </a>
           
           <button class="navbar-toggler"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">

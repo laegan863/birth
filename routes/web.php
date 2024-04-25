@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\DeathCertificateController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +17,9 @@ use App\Http\Controllers\HomeController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+Route::get('/success/{trans_id}', [HomeController::class, 'success'])->name('home.success');
+Route::post('/death-certificate-form/{type}/store', [DeathCertificateController::class, 'store'])->name('death.form_store');
+Route::get('/death-certificate-form/{type}', [HomeController::class, 'death_certificate_form'])->name('home.death_form');
 Route::get('/about', [HomeController::class, 'about'])->name('home.about');
 Route::get('/contact', [HomeController::class, 'contact'])->name('home.contact');
 Route::get('/how-to-obtain-a-copy', [HomeController::class, 'how_to_obtain_a_copy'])->name('home.how-to-obtain-a-copy');

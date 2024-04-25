@@ -6,7 +6,16 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    protected function success($trans_id){
+        // dd($trans_id);
+    	return view('success', ['trans_id' => $trans_id]);
 
+    }
+    protected function death_certificate_form($type){
+
+    	return view('death-certificate-form', ['type' => $type]);
+
+    }
     protected function what_is_a_vital_record(){
 
     	return view('what-is-a-vital-record');
