@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-@include('files/head')
+@include('files.head')
+    <title>Death Certificate</title>
+</head>
 <body>
     
-    <!-- Navbar -->
-    @include('files/navbar')
+<!-- Navbar -->
+@include('files.navbar')
 
     <!-- Hero -->
     <div class="container-fluid">
@@ -84,19 +84,19 @@
                 Choose type of certificate:
             </div>
             <div class="col-lg-4">
-                <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <a href="{{route('home.death_form', ['type' => 'new certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     NEW CERTIFICATE
-                </button>
+                </a>
             </div>
             <div class="col-lg-4">
-                <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <a href="{{route('home.death_form', ['type' => 'replace certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     REPLACE CERTIFICATE
-                </button>
+                </a>
             </div>
             <div class="col-lg-4">
-                <button class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
+                <a href="{{route('home.death_form', ['type' => 'certified certificate'])}}" class="col-12 btn bg-light-blue text-light fw-semibold py-2 fs-6">
                     CERTIFIED COPY
-                </button>
+                </a>
             </div>
         </div>
     </div>
